@@ -55,11 +55,10 @@ const Home = () => {
   });
 
   const sliderSettings = {
-    infinite: false,
+    infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
     vertical: true,
-    // verticalSwiping: true,
     swipeToSlide: true,
     arrows: false,
     beforeChange: (_: Number, currentIndex: Number) => {

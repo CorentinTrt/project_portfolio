@@ -1,5 +1,21 @@
 const sliderContent = [
   {
+    backgroundSrc: 'decath_cover.jpg',
+    title: "Decath'",
+    intro: `Decathlon is the leading French group in the retail distribution of sports and leisure goods. he project I worked on aims to provide a more cost-effective e-commerce solution for franchisees in the countries (17 to 25 countries) where Decathlon is currently expanding its presence`,
+    job: 'On this project, i worked as Fullstack Developer, mainly on the Checkout scope',
+    tools: ['svelte', 'nestjs', 'php', 'google cloud'],
+    link: 'https://www.decathlon.at/',
+  },
+  {
+    backgroundSrc: 'mono_cover.jpg',
+    title: 'Mono',
+    intro: `Mono is a personal project on which I work alone based on a fake brief: Build an ERP supporting multiple frontend applications that will interact with a gRPC micro-service based backend through dedicated BFFs`,
+    job: 'On this project, i can perfect my monorepo management and deepen my understanding of OpenTelemetry. I also use this project to learn more about Cloud Architecture and CI/CD pipelines',
+    tools: ['nx', 'fastify', 'grpc', 'google cloud'],
+    link: 'https://area.autodesk.com/',
+  },
+  {
     backgroundSrc: 'area_cover.jpg',
     title: 'Area',
     intro: `Area is a large-scale project in which I participated while working for Akufen. It was a complete rebuild of the first version. If you are working in CGI, VFX, 3D creation, Area is the place you need to go. You'll can show to the world your work, talk to your pairs and share on every aspect of your job`,
@@ -8,18 +24,10 @@ const sliderContent = [
     link: 'https://area.autodesk.com/',
   },
   {
-    backgroundSrc: 'asset_tracking_cover.jpg',
-    title: 'Asset Tracking',
-    intro: `Asset Tracking is a self made project that i'm working on when i have free time. The main purpose is to handle more easier different asset's wallet across different exchanges`,
-    job: 'On this project, i work alone (for the moment) and for now, i focus my efforts on the monolithic API',
-    tools: ['typescript', 'node.js', 'mongodb'],
-    link: 'https://github.com/CorentinTrt/assets-tracking',
-  },
-  {
     backgroundSrc: 'ocean_school_cover.jpg',
     title: 'Ocean School',
     intro: `Ocean School, a program of the Ocean Frontier Institute in partnership with the National Film Board of Canada, is a groundbreaking educational experience that uses powerful storytelling techniques, immersive technologies and interactive media. Its inquiry-based approach advances critical thinking, innovation and environmental awareness`,
-    job: 'On this project, i work as a frontend developer while working for Akufen',
+    job: 'On this project, i worked as a frontend developer while working for Akufen',
     tools: ['react', 'three.js', 'craft'],
     link: 'https://oceanschool.nfb.ca/',
   },
