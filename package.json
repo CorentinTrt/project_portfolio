@@ -1,35 +1,35 @@
 {
-  "name": "portfolio-frontend",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "lint:css": "stylelint ./styles/*.ts"
-  },
-  "dependencies": {
-    "@icons-pack/react-simple-icons": "^4.6.1",
-    "next": "12.1.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-slick": "^0.28.1",
-    "tiny-emitter": "^2.1.0"
-  },
-  "devDependencies": {
-    "@types/node": "17.0.21",
-    "@types/react": "17.0.41",
-    "@types/react-dom": "^17.0.17",
-    "@types/react-slick": "^0.23.8",
-    "eslint": "8.11.0",
-    "eslint-config-next": "12.1.0",
-    "sass": "^1.49.9",
-    "stylelint": "^14.13.0",
-    "stylelint-config-css-modules": "^4.1.0",
-    "stylelint-config-prettier-scss": "^0.0.1",
-    "stylelint-config-property-sort-order-smacss": "^9.0.0",
-    "stylelint-config-standard-scss": "^5.0.0",
-    "typescript": "^4.9.3"
-  }
+    "name": "portfolio-frontend",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "lint:css": "stylelint ./styles/*.ts"
+    },
+    "dependencies": {
+        "@icons-pack/react-simple-icons": "~11.1.0",
+        "next": "15.1.5",
+        "react": "18.3.1",
+        "react-dom": "18.3.1",
+        "react-slick": "0.30.3",
+        "tiny-emitter": "~2.1.0"
+    },
+    "devDependencies": {
+        "@types/node": "17.0.21",
+        "@types/react": "17.0.41",
+        "@types/react-dom": "~17.0.17",
+        "@types/react-slick": "~0.23.8",
+        "eslint": "8.11.0",
+        "eslint-config-next": "12.1.0",
+        "sass": "~1.49.9",
+        "stylelint": "~14.13.0",
+        "stylelint-config-css-modules": "~4.1.0",
+        "stylelint-config-prettier-scss": "~0.0.1",
+        "stylelint-config-property-sort-order-smacss": "~9.0.0",
+        "stylelint-config-standard-scss": "~5.0.0",
+        "typescript": "~4.9.3"
+    }
 }
