@@ -83,7 +83,7 @@ const RessourcesWysiwyg = () => {
                 <p style={{ marginBottom: '2rem' }}>- my dotfiles</p>
             </a>
             <a
-                href="https://lunar-care-8a1.notion.site/Wiki-dev-98db8f3a52da469db05cb1ffa5cdf407"
+                href="https://publish.obsidian.md/corentintrt"
                 target="_blank"
                 rel="noreferrer"
             >
