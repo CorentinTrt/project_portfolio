@@ -2,7 +2,7 @@ const sliderContent = [
   {
     backgroundSrc: 'decath_cover.jpg',
     title: "Decath'",
-    intro: `Decathlon is the leading French group in the retail distribution of sports and leisure goods. he project I worked on aims to provide a more cost-effective e-commerce solution for franchisees in the countries (17 to 25 countries) where Decathlon is currently expanding its presence`,
+    intro: `Decathlon is the leading French group in the retail distribution of sports and leisure goods. The project I worked on aims to provide a more cost-effective e-commerce solution for franchisees in the countries (17 to 25 countries) where Decathlon is currently expanding its presence`,
     job: 'On this project, i worked as Fullstack Developer, mainly on the Checkout scope',
     tools: ['svelte', 'nestjs', 'php', 'google cloud'],
     link: 'https://www.decathlon.at/',
