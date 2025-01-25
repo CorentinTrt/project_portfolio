@@ -13,7 +13,7 @@ const sliderContent = [
     intro: `Mono is a personal project on which I work alone based on a fake brief: Build an ERP supporting multiple frontend applications that will interact with a gRPC micro-service based backend through dedicated BFFs`,
     job: 'On this project, i can perfect my monorepo management and deepen my understanding of OpenTelemetry. I also use this project to learn more about Cloud Architecture and CI/CD pipelines',
     tools: ['nx', 'fastify', 'grpc', 'google cloud'],
-    link: 'https://area.autodesk.com/',
+    link: 'https://github.com/CorentinTrt/project_mono',
   },
   {
     backgroundSrc: 'area_cover.jpg',
