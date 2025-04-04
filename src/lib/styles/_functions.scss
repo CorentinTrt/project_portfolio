@@ -1,0 +1,42 @@
+@use 'sass:color';
+@use 'sass:math';
+
+@function decline-color($color, $declination) {
+  $color-lightness: color.channel($color, 'lightness', $space: hsl);
+
+  @if $declination =='hover' {
+    @if $color-lightness >80 {
+      @return color.scale($color, $lightness: -10%);
+    }
+
+    @else {
+      @return color.scale($color, $lightness: +10%);
+    }
+  }
+
+  @else if $declination =='on' {
+    @if $color-lightness >80 {
+      @return color.scale($color, $lightness: -95%);
+    }
+
+    @else {
+      @return color.scale($color, $lightness: +95%);
+    }
+  }
+
+  @else if $declination =='outline' {
+    @if $color-lightness >80 {
+      @return color.scale($color, $lightness: -50%);
+    }
+
+    @else {
+      @return color.scale($color, $lightness: +50%);
+    }
+  }
+
+  @return $color;
+}
+
+@function strip-unit($value) {
+  @return math.div($value, ($value * 0 + 1));
+}

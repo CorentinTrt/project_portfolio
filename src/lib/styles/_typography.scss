@@ -1,0 +1,146 @@
+@use 'mixins' as m;
+
+$min-vw: 600px;
+$max-vw: 1200px;
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/montserrat-900.woff2') format('woff2'),
+    url('/fonts/montserrat-900.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/montserrat-700.woff2') format('woff2'),
+    url('/fonts/montserrat-700.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/montserrat-600.woff2') format('woff2'),
+    url('/fonts/montserrat-600.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/montserrat-400.woff2') format('woff2'),
+    url('/fonts/montserrat-400.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/montserrat-200.woff2') format('woff2'),
+    url('/fonts/montserrat-200.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+:root {
+  --font-family-primary: Montserrat, Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --font-family-mono: Monaco, "Courier New";
+}
+
+body {
+  font-family: var(--font-family-primary);
+  color: var(--color-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+h1 {
+  @include m.font-size-fluid(28px, 48px, $min-vw, $max-vw);
+
+  & {
+    font-weight: 900;
+  }
+}
+
+h2 {
+  @include m.font-size-fluid(24px, 38px, $min-vw, $max-vw);
+
+  & {
+    font-weight: 900;
+  }
+}
+
+h3 {
+  @include m.font-size-fluid(22px, 30px, $min-vw, $max-vw);
+
+  & {
+    font-weight: 700;
+  }
+}
+
+h4 {
+  @include m.font-size-fluid(18px, 24px, $min-vw, $max-vw);
+
+  & {
+    font-weight: 700;
+  }
+}
+
+h5 {
+  @include m.font-size-fluid(16px, 20px, $min-vw, $max-vw);
+
+  & {
+    font-weight: 600;
+  }
+}
+
+h6 {
+  @include m.font-size-fluid(14px, 18px, $min-vw, $max-vw);
+
+  & {
+    font-weight: 600;
+  }
+}
+
+p {
+  @include m.font-size-fluid(14px, 18px, $min-vw, $max-vw);
+
+  & {
+    font-weight: 400;
+    line-height: 1.5;
+    display: block;
+  }
+}
+
+p.hint {
+  @include m.font-size-fluid(10px, 14px, $min-vw, $max-vw);
+
+  & {
+    font-weight: 200;
+  }
+}
+
+a {
+  color: var(--color-secondary);
+  text-decoration: none;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: var(--color-secondary-hover);
+    text-decoration: underline;
+  }
+}

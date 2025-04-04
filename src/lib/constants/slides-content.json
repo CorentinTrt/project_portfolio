@@ -1,0 +1,67 @@
+[
+  {
+    "imageSrc": "decath.webp",
+    "title": "Decath'",
+    "intro": "Decathlon is the leading French group in the retail distribution of sports and leisure goods. The project I worked on aims to provide a more cost-effective e-commerce solution for franchisees in the countries (17 to 25 countries) where Decathlon is currently expanding its presence",
+    "job": "On this project, i worked as Fullstack Developer, mainly on the Checkout scope",
+    "tools": [
+      "ri:svelte-fill",
+      "simple-icons:nestjs",
+      "simple-icons:php",
+      "simple-icons:googlecloud"
+    ],
+    "link": "https://www.decathlon.at/"
+  },
+  {
+    "imageSrc": "moonouw.webp",
+    "title": "Mounoow",
+    "intro": "Mounoow is a personal project on which I work alone based on a fake brief: Build an ERP supporting multiple frontend applications that will interact with a gRPC micro-service based backend through dedicated BFFs",
+    "job": "On this project, i can perfect my monorepo management and deepen my understanding of OpenTelemetry. I also use this project to learn more about Cloud Architecture and CI/CD pipelines",
+    "tools": [
+      "simple-icons:nx",
+      "simple-icons:fastify",
+      "simple-icons:opentelemetry",
+      "simple-icons:googlecloud"
+    ],
+    "link": "https://github.com/mounoow/mounoow"
+  },
+  {
+    "imageSrc": "area.webp",
+    "title": "Area",
+    "intro": "Area is a large-scale project in which I participated while working for Akufen. It was a complete rebuild of the first version. If you are working in CGI, VFX, 3D creation, Area is the place you need to go. You'll can show to the world your work, talk to your pairs and share on every aspect of your job",
+    "job": "On this project, i work as a frontend developer to help building the interface and the logic behind it",
+    "tools": [
+      "simple-icons:react",
+      "simple-icons:gatsby",
+      "simple-icons:graphql",
+      "simple-icons:mysql"
+    ],
+    "link": "https://area.autodesk.com/"
+  },
+  {
+    "imageSrc": "ocean-school.webp",
+    "title": "Ocean School",
+    "intro": "Ocean School, a program of the Ocean Frontier Institute in partnership with the National Film Board of Canada, is a groundbreaking educational experience that uses powerful storytelling techniques, immersive technologies and interactive media. Its inquiry-based approach advances critical thinking, innovation and environmental awareness",
+    "job": "On this project, i worked as a frontend developer while working for Akufen",
+    "tools": [
+      "simple-icons:react",
+      "simple-icons:threedotjs",
+      "simple-icons:craftcms"
+    ],
+    "link": "https://oceanschool.nfb.ca/"
+  },
+  {
+    "imageSrc": "aline.webp",
+    "title": "Aline",
+    "intro": "Aline, pour qu'elle revienne is a mobile app develop in React Native during my bootcamp. With this project, we try to create a network of places that practice deposit",
+    "job": "On this project, i work as a fullstack developer with Laetitia Langlois (the project carrier) and Chryssa Volaris. Sadely this project is no longer maintain",
+    "tools": [
+      "simple-icons:react",
+      "simple-icons:ios",
+      "simple-icons:android",
+      "simple-icons:nodedotjs",
+      "simple-icons:mongodb"
+    ],
+    "link": "https://aline.app/"
+  }
+]

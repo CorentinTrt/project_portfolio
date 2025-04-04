@@ -1,0 +1,48 @@
+// for all your global styles
+:root {
+  --size-top-menu-element: 2rem;
+  --size-top-menu-element-thickeness: 0.2rem;
+  --size-top-menu-element-margin: 1.5rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background-attachment: fixed;
+  background-color: var(--color-surface);
+  background-size: 100vw 100vh;
+  background-image: radial-gradient(50% 50% at 50% 50%,
+      rgba(22, 22, 22, 0.75) 0%,
+      rgba(255, 255, 255, 0) 100%),
+    linear-gradient(180deg, var(--color-surface-dim) 0%, var(--color-black) 15%, var(--color-surface) 50%);
+
+}
+
+input,
+button {
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+  background-color: transparent;
+  border: none;
+}
+
+button:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}

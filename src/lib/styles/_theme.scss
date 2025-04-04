@@ -1,0 +1,49 @@
+@use './functions' as f;
+
+$-color-primary-light: #fffcf2;
+$-color-secondary-light: #040614;
+
+$-color-success-light: #36f4a2;
+$-color-warning-light: #f4a236;
+$-color-error-light: #f44336;
+
+$-color-disabled-light: #c5c5c5;
+
+$-color-surface-light: #1f2226;
+$-color-surface-bright-light: #2b3036;
+$-color-surface-dim-light: #111417;
+
+:root {
+  --color-primary: #{$-color-primary-light};
+  --color-primary-hover: #{f.decline-color($-color-primary-light, 'hover')};
+  --color-on-primary: #{f.decline-color($-color-primary-light, 'on')};
+  --color-outline-primary: #{f.decline-color($-color-primary-light, 'outline')};
+
+  --color-secondary: #{$-color-secondary-light};
+  --color-secondary-hover: #{f.decline-color($-color-secondary-light, 'hover')};
+  --color-on-secondary: #{f.decline-color($-color-secondary-light, 'on')};
+  --color-outline-secondary: #{f.decline-color($-color-secondary-light, 'outline')};
+
+  --color-success: #{$-color-success-light};
+  --color-on-success: #{f.decline-color($-color-success-light, 'on')};
+  --color-outline-success: #{f.decline-color($-color-success-light, 'outline')};
+  --color-warning: #{$-color-warning-light};
+  --color-on-warning: #{f.decline-color($-color-warning-light, 'on')};
+  --color-outline-warning: #{f.decline-color($-color-warning-light, 'outline')};
+  --color-error: #{$-color-error-light};
+  --color-on-error: #{f.decline-color($-color-error-light, 'on')};
+  --color-outline-error: #{f.decline-color($-color-error-light, 'outline')};
+
+  --color-disabled: #{$-color-disabled-light};
+  --color-on-disabled: #{f.decline-color($-color-disabled-light, 'on')};
+  --color-outline-disabled: #{f.decline-color($-color-disabled-light, 'outline')};
+
+  --color-surface: #{$-color-surface-light};
+  --color-surface-bright: #{$-color-surface-bright-light};
+  --color-surface-dim: #{$-color-surface-dim-light};
+  --color-on-surface: #{f.decline-color($-color-surface-light, 'on')};
+  --color-outline-surface: #{f.decline-color($-color-surface-light, 'outline')};
+
+  --color-white: #f7f7f7;
+  --color-black: #0c0c0c;
+}
